@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eduardo Autos, oficina mecânica em Maranguape - CE, oferece serviços especializados como diagnóstico completo de carros, troca de correias, revisão de suspensão e freios, limpeza e reparo do sistema de arrefecimento, revisão da injeção eletrônica e troca do kit de embreagem. Qualidade e eficiência garantidas para seu veículo."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Eduardo Autos</title>
+  </head>
+  <body>
+    <div id="backdrop" class="backdrop"></div>
+
+    <header>
+      <a class="icon-button" href="#inicio">
+        <img src="logo.png" alt="Logo Eduardo Autos" />
+      </a>
+
+      <nav id="navigation">
+        <a href="#servicos" class="bigger-text nav-link">Nossos Serviços</a>
+        <a href="#pagamento" class="bigger-text nav-link"
+          >Métodos de Pagamento</a
+        >
+        <a href="#contato" class="bigger-text nav-link"
+          >Contato e Redes Sociais</a
+        >
+        <a href="#horarios" class="bigger-text nav-link"
+          >Horário de funcionamento</a
+        >
+        <a href="#endereco" class="bigger-text nav-link">Endereço</a>
+      </nav>
+
+      <button id="menu-button" class="icon-button">
+        <img id="menu-icon" src="menu.svg" alt="Botão do menu" />
+      </button>
+    </header>
+
+    <main>
+      <section id="inicio" class="main-text-container">
+        <p class="bigger-text">
+          Filho e neto de mecânico, Eduardo atua no ramo há mais de 15 anos. Mas
+          foi em agosto de 2018, que decidiu empreender e abrir sua própria
+          oficina. Localizada em Maranguape-CE, a oficina Eduardo Autos conta
+          com diversos equipamentos e ferramentas profissionais para oferecer o
+          melhor serviço para o seu veículo.
+        </p>
+      </section>
+
+      <section class="carousel-container">
+        <div class="carousel-row">
+          <div
+            class="img-container"
+            style="background-image: url('carousel-pics/diagnostico.webp')"
+          >
+            <p class="img-caption">Oficina Eduardo Autos</p>
+          </div>
+          <div
+            class="img-container"
+            style="background-image: url('carousel-pics/ferramentas.webp')"
+          >
+            <p class="img-caption">Marcas de referência</p>
+          </div>
+          <div
+            class="img-container"
+            style="background-image: url('carousel-pics/fachada.webp')"
+          >
+            <p class="img-caption">Fachada Eduardo Autos</p>
+          </div>
+          <div class="carousel-row-end"></div>
+        </div>
+
+        <div id="carousel-dialog" class="carousel-dialog">
+          <button class="icon-button close-button">
+            <img id="close-dialog-button" src="x.svg" alt="Botão de fechar" />
+          </button>
+          <img id="carousel-dialog-img" alt="Foto expandida" />
+        </div>
+      </section>
+
+      <section id="servicos">
+        <h5>Nossos Serviços</h5>
+        <div class="rect red-border">
+          <ul>
+            <li>Diagnóstico completo;</li>
+            <li>Troca de correias;</li>
+            <li>Revisão de suspensão;</li>
+            <li>Revisão do sistema de freios;</li>
+            <li>Limpeza e reparo do sistema de arrefecimento;</li>
+            <li>Revisão do sistema de injeção eletrônica;</li>
+            <li>Troca do kit de embreagem;</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="pagamento">
+        <h5>Métodos de Pagamento</h5>
+        <div class="rect red-border">
+          <p>
+            Crédito, débito, espécie e PIX <br />
+            Verificar possibilidade de parcelamento
+          </p>
+          <div class="credit-card-icons">
+            <img src="Visa.png" alt="Bandeira de cartão Visa" />
+            <img src="Mastercard.png" alt="Bandeira de cartão Mastercard" />
+            <img src="Elo.png" alt="Bandeira de cartão Elo" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contato">
+        <h5>Contato e Redes Sociais</h5>
+        <div class="rect">
+          <p>Para saber mais informações</p>
+          <a href="tel:85989291073">(85) 9 8929-1073</a>
+          <p>ou</p>
+          <a
+            href="https://wa.me/5585989291073"
+            target="_blank"
+            rel="noopener"
+            class="button-link green-border"
+          >
+            WhatsApp Eduardo Autos
+            <img src="Whatsapp.png" alt="Ícone de WhatsApp" />
+          </a>
+          <p class="extra-mt">
+            Siga-nos no Instagram e acompanhe o nosso trabalho
+          </p>
+          <a
+            href="https://www.instagram.com/eduardo.autos/"
+            target="_blank"
+            rel="noopener"
+            class="button-link red-border"
+          >
+            @eduardo.autos
+            <img src="Instagram.png" alt="Ícone de WhatsApp" />
+          </a>
+        </div>
+      </section>
+
+      <section id="horarios">
+        <h5>Horário de Funcionamento</h5>
+        <div class="rect">
+          <p>Segunda a sexta-feira das 08h às 17h</p>
+          <p>Sábado das 08h às 12h</p>
+          <p>Aos feriados, consultar funcionamento</p>
+        </div>
+      </section>
+
+      <section id="endereco">
+        <h5>Endereço</h5>
+        <div class="rect">
+          <p class="small-text">
+            Clique no mapa para ser direcionado ao endereço da oficina.
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15922.224769970097!2d-38.6752054!3d-3.9048154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0abfa7525272f%3A0xa73be2563ff55031!2sEduardo%20Autos!5e0!3m2!1spt-BR!2sbr!4v1716909624834!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="160"
+            style="border: 0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="small-text">
+        Todos os direitos reservados a Eduardo Autos. Maranguape - CE
+      </p>
+      <p class="small-text">
+        Design por Carina Torquato. Desenvolvido por Matheus Braga.
+      </p>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
