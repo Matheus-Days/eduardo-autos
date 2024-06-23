@@ -49,7 +49,6 @@ function openCarouselDialog(src) {
 }
 
 function closeCarouselDialog() {
-  console.log('close');
   carouselDialogImgEl.src = '';
   showCarouselDialog(false);
   enableBodyScroll(true);
